@@ -1,0 +1,143 @@
+@import '_bootstrap/bootstrap.less';
+
+/* Variables */
+
+/* Mixins */
+.center{
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+/* HTML Elements */
+.gist {
+  pre {
+    white-space: pre;
+  }
+}
+
+a {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+/* Post */
+.post {
+  margin-bottom: 50px;
+  h2, h1 {
+    margin-top: 0;
+  }
+  h1 {
+    margin-bottom: 20px;
+  }
+  width: 100%;
+  .clearfix();
+}
+.post-meta {
+  margin-top: 0.5em;
+  float: left;
+  color: darken(#f4f4f4, 15%);
+  text-align: center;
+}
+.post-type {
+  color: darken(#f4f4f4, 8%);
+  padding: 10px 0 15px;
+  margin-bottom: .5em;
+  border-bottom: darken(#f4f4f4, 0%) solid 1px;
+}
+.post-date {
+  // background: darken(#f4f4f4, 8%);
+  padding: 5px 0;
+  color: darken(#f4f4f4, 8%);
+  .month,
+  .day,
+  .year {
+    display: block;
+    line-height: 1em;
+    text-transform: uppercase;
+  }
+  .month {
+    font-size: 18px;
+  }
+  .day {
+    font-size: 30px;
+  }
+}
+.post-content {
+}
+
+.post {
+  &.post-quote {
+    h1, h2 {
+      font-style: italic;
+    }
+    .post-content {
+      p {
+        font-style: italic;
+      }
+    }
+  }
+  &.post-image {
+    h1, h2 {
+      img {
+        border: #f4f4f4 solid 5px;
+      }
+    }
+    .post-content {
+
+    }
+  }
+  &.post-tweet {
+    .post-content {
+      h2 {
+        font-style: italic;
+      }
+    }
+  }
+}
+
+/* Sidebar/Aside */
+
+.aside-img {
+  .center;
+  max-width: 200px;
+  border-radius: 50%;
+  border: #f4f4f4 solid 5px;
+  box-sizing: border-box;
+}
+
+.nav-home {
+  display: block;
+  border: #f4f4f4 solid 1px;
+  border-left: none;
+  border-right: none;
+  padding: 10px 0;
+  margin: -10px 0 20px;
+}
+
+/* Footer */
+
+footer{
+  .copyright{
+    font-size: 12px;
+  }
+}
+
+
+
+/*  Media Queries
+    Extra small devices (phones, up to 480px) No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm) {}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md) {}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg) {}

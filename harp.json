@@ -1,0 +1,8 @@
+{
+  "domains": [""],
+  "globals": {
+    "title": "My Harp App",
+    "name": "Harp.io",
+    "twitter": "@harpplatform"
+  }
+}
