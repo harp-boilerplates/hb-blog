@@ -3,6 +3,7 @@
   "globals": {
     "title": "My Harp Blog",
     "name": "Harp.io",
-    "twitter": "@harpplatform"
+    "twitter": "@harpplatform",
+    "site_url": "http://example.com"
   }
 }
