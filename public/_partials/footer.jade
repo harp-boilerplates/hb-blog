@@ -2,7 +2,7 @@ footer
   .container
     .row
       .col-sm-6
-        p: small &copy; 2013 #{ site_title }
+        p: small &copy; #{(new Date()).getFullYear()} #{ site_title }
       .col-sm-6
         p.pull-right
           small: a(href="/rss.xml", title="#{ site_title } RSS feed")
