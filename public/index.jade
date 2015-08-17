@@ -1,2 +1,7 @@
+- function excerpt(content) {
+  - if(content.indexOf("<!-- more -->") == -1) return content;
+  - else return content.split("<!-- more -->")[0];
+- }
+
 each post, slug in public.posts._data
   != partial("/posts/" + slug, post)
