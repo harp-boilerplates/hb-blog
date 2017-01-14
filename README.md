@@ -1,5 +1,8 @@
 # Harp’s Blog Boilerplate
 
+<!-- Markdown snippet -->
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/harp-boilerplates/hb-blog)
+
 _This is a boilerplate to use with the [Harp Platform](http://harp.io/) and/or the [Harp Server](http://harpjs.com/) (a static web server with built-in pre-processing build with NodeJS)_
 
 ## Index
